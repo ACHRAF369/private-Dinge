@@ -1,0 +1,42 @@
+
+.button{
+    display: flex;
+   
+    background-color: aquamarine;
+    float: right;
+}
+section{
+
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+input:hover{
+   background-color: rgb(14, 11, 7);
+   color: rgb(255, 255, 255);
+}
+.button1{
+    padding: 2%;
+    border-radius: 25px;
+    
+}
+.button1:hover{
+    background-color: blue;
+    color: white;
+}
+@keyframes button {
+
+    from {background-color: red;}
+    to {background-color: yellow;}
+
+  }
+  /* .dark-mode {
+    background-color: black;
+    color: white;
+  } */
+
